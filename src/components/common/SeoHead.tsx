@@ -29,7 +29,7 @@ export function SeoHead({ title, description, canonicalPath, jsonLd }: SeoHeadPr
     const origin =
       typeof window !== 'undefined' && window.location.origin
         ? window.location.origin
-        : 'https://toolora.app';
+        : 'https://toolora3.netlify.app';
     const path = canonicalPath ?? (typeof window !== 'undefined' ? window.location.pathname : '/');
     const canonicalUrl = `${origin}${path}`;
 
