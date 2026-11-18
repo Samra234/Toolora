@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="toolora-grad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#toolora-grad)" />
+  <path d="M19 20H45V26H35V46H29V26H19V20Z" fill="#FFFFFF" />
+  <circle cx="43" cy="41" r="5" fill="#A5B4FC" />
+</svg>

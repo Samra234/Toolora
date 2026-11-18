@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toolora – Free Online Tools for Everyday Tasks</title>
+    <meta
+      name="description"
+      content="Fast, private browser-side online tools for images, PDFs, text formatting, developer encoding, calculators, and unit conversions. No uploads stored."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href="https://toolora.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Toolora" />
+    <meta property="og:title" content="Toolora – Free Online Tools for Everyday Tasks" />
+    <meta
+      property="og:description"
+      content="Fast, private browser-side online tools for images, PDFs, text formatting, developer encoding, calculators, and unit conversions."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Toolora – Free Online Tools for Everyday Tasks" />
+    <meta
+      name="twitter:description"
+      content="Fast, private browser-side online tools for images, PDFs, text formatting, developer encoding, calculators, and unit conversions."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('toolora-theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Toolora",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "All",
+        "description": "Free browser-side online tools platform for image editing, PDF manipulation, text utilities, developer encoding, calculators, and unit converters.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-white text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Toolora – Free Online Tools for Everyday Tasks",
+  "description": "Fast, privacy-first browser-based utilities for images, PDFs, text, developer encoding, calculators, and unit conversions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
